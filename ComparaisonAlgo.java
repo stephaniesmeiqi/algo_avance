@@ -8,11 +8,6 @@ public class ComparaisonAlgo {
     
     static final int INF = Integer.MAX_VALUE / 2;
     
-    // ==================== ALGORITHME GLOUTON ====================
-    
-    /**
-     * Algorithme glouton : prendre le plus de chaque pièce (par ordre décroissant)
-     */
     static class ResultatGlouton {
         boolean possible;
         List<Integer> pieces;

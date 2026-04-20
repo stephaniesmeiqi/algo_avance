@@ -3,9 +3,6 @@ import java.util.*;
 /**
  * Classe pour résoudre le problème du rendu de monnaie optimal
  * en utilisant la programmation dynamique.
- * 
- * Complexité temporelle : O(n × N)
- * Complexité spatiale : O(n × N)
  */
 public class RendreMonnaie {
     
@@ -59,7 +56,7 @@ public class RendreMonnaie {
             }
         }
         
-        // === RECONSTRUCTION DE LA SOLUTION ===
+        // RECONSTRUCTION DE LA SOLUTION 
         // Remonter de dp[n][somme] en suivant les choix effectués
         List<Integer> solution = new ArrayList<>();
         if (dp[n][somme] != INF) {
