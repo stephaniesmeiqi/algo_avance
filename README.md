@@ -1,7 +1,6 @@
 # Programme de Programmation Dynamique : 
 
 ### Compilation
-Compilez le fichier Java :
 ```bash
 javac RendreMonnaie.java
 ```
